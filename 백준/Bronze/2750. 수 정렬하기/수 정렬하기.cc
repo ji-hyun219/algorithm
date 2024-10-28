@@ -10,9 +10,7 @@ int main() {
     int arr[n];
     
     for (int i=0; i<n; i++) {
-        int num;
-        cin >> num;
-        arr[i] = num;
+        cin >> arr[i];
     }
     
     sort(arr, arr + n);
